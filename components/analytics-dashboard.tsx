@@ -64,7 +64,7 @@ export function AnalyticsDashboard() {
           <p className="text-gray-600 dark:text-gray-400">Comprehensive abuse detection and prevention metrics</p>
         </div>
         <div className="flex items-center space-x-3">
-          <Select value={timeRange} onChange={setTimeRange}>
+          <Select value={timeRange} onValueChange={setTimeRange}>
             <SelectTrigger className="w-32">
               <SelectValue />
             </SelectTrigger>
