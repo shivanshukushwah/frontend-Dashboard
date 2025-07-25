@@ -1,0 +1,59 @@
+{
+  "dashboard": {
+    "title": "ShadowBlock 仪表板",
+    "subtitle": "AI驱动的内容审核",
+    "systemActive": "系统运行中",
+    "lastUpdated": "最后更新",
+    "uptime": "运行时间"
+  },
+  "stats": {
+    "totalMessages": "总消息数",
+    "blockedContent": "已屏蔽内容",
+    "activeUsers": "活跃用户",
+    "accuracyRate": "准确率",
+    "messagesPerSecond": "消息/秒",
+    "threatsDetected": "检测到的威胁",
+    "activeRooms": "活跃房间"
+  },
+  "tabs": {
+    "overview": "概览",
+    "moderation": "审核",
+    "analytics": "分析",
+    "heatmap": "热力图",
+    "users": "用户",
+    "settings": "设置"
+  },
+  "actions": {
+    "refresh": "刷新",
+    "export": "导出",
+    "filter": "筛选",
+    "search": "搜索",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑"
+  },
+  "threats": {
+    "cyberbullying": "网络霸凌",
+    "harassment": "骚扰",
+    "spam": "垃圾信息",
+    "threats": "威胁",
+    "toxicity": "毒性",
+    "hateSpeed": "仇恨言论"
+  },
+  "severity": {
+    "critical": "严重",
+    "high": "高",
+    "medium": "中",
+    "low": "低"
+  },
+  "moderation": {
+    "flaggedContent": "标记内容",
+    "userReports": "用户举报",
+    "moderationHistory": "审核历史",
+    "approve": "批准",
+    "block": "屏蔽",
+    "banUser": "封禁用户",
+    "viewContext": "查看上下文"
+  }
+}

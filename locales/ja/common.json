@@ -1,0 +1,59 @@
+{
+  "dashboard": {
+    "title": "ShadowBlockダッシュボード",
+    "subtitle": "AI搭載コンテンツモデレーション",
+    "systemActive": "システム稼働中",
+    "lastUpdated": "最終更新",
+    "uptime": "稼働時間"
+  },
+  "stats": {
+    "totalMessages": "総メッセージ数",
+    "blockedContent": "ブロックされたコンテンツ",
+    "activeUsers": "アクティブユーザー",
+    "accuracyRate": "精度率",
+    "messagesPerSecond": "メッセージ/秒",
+    "threatsDetected": "検出された脅威",
+    "activeRooms": "アクティブルーム"
+  },
+  "tabs": {
+    "overview": "概要",
+    "moderation": "モデレーション",
+    "analytics": "分析",
+    "heatmap": "ヒートマップ",
+    "users": "ユーザー",
+    "settings": "設定"
+  },
+  "actions": {
+    "refresh": "更新",
+    "export": "エクスポート",
+    "filter": "フィルター",
+    "search": "検索",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集"
+  },
+  "threats": {
+    "cyberbullying": "サイバーいじめ",
+    "harassment": "ハラスメント",
+    "spam": "スパム",
+    "threats": "脅威",
+    "toxicity": "有害性",
+    "hateSpeed": "ヘイトスピーチ"
+  },
+  "severity": {
+    "critical": "重大",
+    "high": "高",
+    "medium": "中",
+    "low": "低"
+  },
+  "moderation": {
+    "flaggedContent": "フラグ付きコンテンツ",
+    "userReports": "ユーザーレポート",
+    "moderationHistory": "モデレーション履歴",
+    "approve": "承認",
+    "block": "ブロック",
+    "banUser": "ユーザーをBAN",
+    "viewContext": "コンテキストを表示"
+  }
+}

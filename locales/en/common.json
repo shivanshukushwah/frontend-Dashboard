@@ -1,0 +1,59 @@
+{
+  "dashboard": {
+    "title": "ShadowBlock Dashboard",
+    "subtitle": "AI-Powered Content Moderation",
+    "systemActive": "System Active",
+    "lastUpdated": "Last updated",
+    "uptime": "Uptime"
+  },
+  "stats": {
+    "totalMessages": "Total Messages",
+    "blockedContent": "Blocked Content",
+    "activeUsers": "Active Users",
+    "accuracyRate": "Accuracy Rate",
+    "messagesPerSecond": "Messages/sec",
+    "threatsDetected": "Threats detected",
+    "activeRooms": "Active rooms"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "moderation": "Moderation",
+    "analytics": "Analytics",
+    "heatmap": "Heatmap",
+    "users": "Users",
+    "settings": "Settings"
+  },
+  "actions": {
+    "refresh": "Refresh",
+    "export": "Export",
+    "filter": "Filter",
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "threats": {
+    "cyberbullying": "Cyberbullying",
+    "harassment": "Harassment",
+    "spam": "Spam",
+    "threats": "Threats",
+    "toxicity": "Toxicity",
+    "hateSpeech": "Hate Speech"
+  },
+  "severity": {
+    "critical": "Critical",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "moderation": {
+    "flaggedContent": "Flagged Content",
+    "userReports": "User Reports",
+    "moderationHistory": "Moderation History",
+    "approve": "Approve",
+    "block": "Block",
+    "banUser": "Ban User",
+    "viewContext": "View Context"
+  }
+}

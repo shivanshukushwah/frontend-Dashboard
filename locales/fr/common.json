@@ -1,0 +1,59 @@
+{
+  "dashboard": {
+    "title": "Tableau de Bord ShadowBlock",
+    "subtitle": "Modération de Contenu par IA",
+    "systemActive": "Système Actif",
+    "lastUpdated": "Dernière mise à jour",
+    "uptime": "Temps de fonctionnement"
+  },
+  "stats": {
+    "totalMessages": "Messages Totaux",
+    "blockedContent": "Contenu Bloqué",
+    "activeUsers": "Utilisateurs Actifs",
+    "accuracyRate": "Taux de Précision",
+    "messagesPerSecond": "Messages/sec",
+    "threatsDetected": "Menaces détectées",
+    "activeRooms": "Salles actives"
+  },
+  "tabs": {
+    "overview": "Aperçu",
+    "moderation": "Modération",
+    "analytics": "Analytiques",
+    "heatmap": "Carte de Chaleur",
+    "users": "Utilisateurs",
+    "settings": "Paramètres"
+  },
+  "actions": {
+    "refresh": "Actualiser",
+    "export": "Exporter",
+    "filter": "Filtrer",
+    "search": "Rechercher",
+    "save": "Sauvegarder",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier"
+  },
+  "threats": {
+    "cyberbullying": "Cyberintimidation",
+    "harassment": "Harcèlement",
+    "spam": "Spam",
+    "threats": "Menaces",
+    "toxicity": "Toxicité",
+    "hateSpeed": "Discours de Haine"
+  },
+  "severity": {
+    "critical": "Critique",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Faible"
+  },
+  "moderation": {
+    "flaggedContent": "Contenu Signalé",
+    "userReports": "Rapports d'Utilisateur",
+    "moderationHistory": "Historique de Modération",
+    "approve": "Approuver",
+    "block": "Bloquer",
+    "banUser": "Bannir l'Utilisateur",
+    "viewContext": "Voir le Contexte"
+  }
+}

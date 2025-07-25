@@ -1,0 +1,59 @@
+{
+  "dashboard": {
+    "title": "Panel de ShadowBlock",
+    "subtitle": "Moderación de Contenido con IA",
+    "systemActive": "Sistema Activo",
+    "lastUpdated": "Última actualización",
+    "uptime": "Tiempo activo"
+  },
+  "stats": {
+    "totalMessages": "Mensajes Totales",
+    "blockedContent": "Contenido Bloqueado",
+    "activeUsers": "Usuarios Activos",
+    "accuracyRate": "Tasa de Precisión",
+    "messagesPerSecond": "Mensajes/seg",
+    "threatsDetected": "Amenazas detectadas",
+    "activeRooms": "Salas activas"
+  },
+  "tabs": {
+    "overview": "Resumen",
+    "moderation": "Moderación",
+    "analytics": "Analíticas",
+    "heatmap": "Mapa de Calor",
+    "users": "Usuarios",
+    "settings": "Configuración"
+  },
+  "actions": {
+    "refresh": "Actualizar",
+    "export": "Exportar",
+    "filter": "Filtrar",
+    "search": "Buscar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar"
+  },
+  "threats": {
+    "cyberbullying": "Ciberacoso",
+    "harassment": "Acoso",
+    "spam": "Spam",
+    "threats": "Amenazas",
+    "toxicity": "Toxicidad",
+    "hateSpeed": "Discurso de Odio"
+  },
+  "severity": {
+    "critical": "Crítico",
+    "high": "Alto",
+    "medium": "Medio",
+    "low": "Bajo"
+  },
+  "moderation": {
+    "flaggedContent": "Contenido Marcado",
+    "userReports": "Reportes de Usuario",
+    "moderationHistory": "Historial de Moderación",
+    "approve": "Aprobar",
+    "block": "Bloquear",
+    "banUser": "Banear Usuario",
+    "viewContext": "Ver Contexto"
+  }
+}

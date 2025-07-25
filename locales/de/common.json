@@ -1,0 +1,59 @@
+{
+  "dashboard": {
+    "title": "ShadowBlock Dashboard",
+    "subtitle": "KI-gestützte Inhaltsmoderation",
+    "systemActive": "System Aktiv",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "uptime": "Betriebszeit"
+  },
+  "stats": {
+    "totalMessages": "Nachrichten Gesamt",
+    "blockedContent": "Blockierte Inhalte",
+    "activeUsers": "Aktive Benutzer",
+    "accuracyRate": "Genauigkeitsrate",
+    "messagesPerSecond": "Nachrichten/Sek",
+    "threatsDetected": "Bedrohungen erkannt",
+    "activeRooms": "Aktive Räume"
+  },
+  "tabs": {
+    "overview": "Übersicht",
+    "moderation": "Moderation",
+    "analytics": "Analytik",
+    "heatmap": "Heatmap",
+    "users": "Benutzer",
+    "settings": "Einstellungen"
+  },
+  "actions": {
+    "refresh": "Aktualisieren",
+    "export": "Exportieren",
+    "filter": "Filtern",
+    "search": "Suchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten"
+  },
+  "threats": {
+    "cyberbullying": "Cybermobbing",
+    "harassment": "Belästigung",
+    "spam": "Spam",
+    "threats": "Bedrohungen",
+    "toxicity": "Toxizität",
+    "hateSpeed": "Hassrede"
+  },
+  "severity": {
+    "critical": "Kritisch",
+    "high": "Hoch",
+    "medium": "Mittel",
+    "low": "Niedrig"
+  },
+  "moderation": {
+    "flaggedContent": "Markierte Inhalte",
+    "userReports": "Benutzerberichte",
+    "moderationHistory": "Moderationsverlauf",
+    "approve": "Genehmigen",
+    "block": "Blockieren",
+    "banUser": "Benutzer sperren",
+    "viewContext": "Kontext anzeigen"
+  }
+}
