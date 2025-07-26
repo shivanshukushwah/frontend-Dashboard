@@ -2,7 +2,8 @@
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from "react"
 
-type Theme = "light" | "dark" | "system"
+type Theme = "light" | "dark" | "system" | "blue-dark" | "purple-dark" | "high-contrast"
+
 
 interface ThemeContextType {
   theme: Theme
