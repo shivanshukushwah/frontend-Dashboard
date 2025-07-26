@@ -11,6 +11,7 @@ interface ThemeContextType {
   mounted: boolean
   resolvedTheme?: string
   isSystem: boolean
+  availableThemes: Theme[]
 }
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
@@ -41,8 +42,20 @@ export function ThemeContextProvider({ children }: { children: ReactNode }) {
     return () => mq.removeEventListener("change", handler)
   }, [theme])
 
+  // Step 3: Define availableThemes Array
+  const availableThemes: Theme[] = ["light", "dark", "system", "blue-dark", "purple-dark", "high-contrast"]
+
+  // Step 4: Pass availableThemes in the Provider
   return (
-    <ThemeContext.Provider value={{ theme, setTheme, mounted, isSystem }}>
+    <ThemeContext.Provider
+      value={{
+        theme,
+        setTheme,
+        mounted,
+        isSystem,
+        availableThemes,
+      }}
+    >
       {children}
     </ThemeContext.Provider>
   )
