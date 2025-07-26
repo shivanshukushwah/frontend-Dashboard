@@ -164,7 +164,7 @@ export function UserManagement() {
 							<SelectItem value="banned">Banned</SelectItem>
 						</SelectContent>
 					</Select>
-					<Select value={riskFilter} onChange={(e) => setRiskFilter(e.target.value)}>
+					<Select value={riskFilter} onValueChange={(value) => setRiskFilter(value)}>
 						<SelectTrigger className="w-32">
 							<SelectValue />
 						</SelectTrigger>
