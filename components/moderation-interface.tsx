@@ -136,7 +136,7 @@ export function ModerationInterface() {
               className="pl-10 w-64"
             />
           </div>
-          <Select value={filterType} onChange={setFilterType}>
+          <Select value={filterType} onValueChange={setFilterType}>
             <SelectTrigger className="w-32">
               <SelectValue />
             </SelectTrigger>
