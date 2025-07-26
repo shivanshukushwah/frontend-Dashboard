@@ -6,9 +6,18 @@ import { Badge } from "./ui/badge"
 import { Button } from "./ui/button"
 import { Activity, AlertTriangle, Shield, Zap, Pause, Play } from "lucide-react"
 
+interface RealtimeEvent {
+  id: number
+  type: string
+  platform: string
+  severity: string
+  timestamp: string
+  action: string
+}
+
 export function RealtimeMonitor() {
   const [isMonitoring, setIsMonitoring] = useState(true)
-  const [realtimeEvents, setRealtimeEvents] = useState([])
+  const [realtimeEvents, setRealtimeEvents] = useState<RealtimeEvent[]>([])
 
   useEffect(() => {
     if (!isMonitoring) return
