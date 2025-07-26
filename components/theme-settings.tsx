@@ -101,7 +101,7 @@ export function ThemeSettings() {
             </div>
             <Switch
               checked={isSystem}
-              onCheckedChange={(checked) => setTheme(checked ? "system" : currentTheme)}
+              onCheckedChange={(checked) => setTheme(checked ? "system" : theme)}
             />
           </div>
 
