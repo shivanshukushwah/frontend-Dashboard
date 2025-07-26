@@ -153,7 +153,7 @@ export function UserManagement() {
 							className="pl-10 w-64"
 						/>
 					</div>
-					<Select value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>
+					<Select value={statusFilter} onValueChange={(value) => setStatusFilter(value)}>
 						<SelectTrigger className="w-32">
 							<SelectValue />
 						</SelectTrigger>
