@@ -2,7 +2,7 @@
 
 import React, { createContext, useContext, useState, useEffect, ReactNode } from "react"
 
-type Theme = "light" | "dark"
+type Theme = "light" | "dark" | "system"
 
 interface ThemeContextType {
   theme: Theme
@@ -15,17 +15,27 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined)
 
 export function ThemeContextProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>("light")
+  const [theme, setTheme] = useState<Theme>("system")
   const [mounted, setMounted] = useState(false)
   const [isSystem, setIsSystem] = useState(false)
 
   useEffect(() => {
     setMounted(true)
-    // Example logic: detect system theme preference
     const mq = window.matchMedia("(prefers-color-scheme: dark)")
-    setIsSystem(theme === "light" || theme === "dark" ? false : mq.matches)
-    // Optionally, listen for system changes:
-    const handler = (e: MediaQueryListEvent) => setIsSystem(e.matches)
+
+    if (theme === "system") {
+      setIsSystem(true)
+      setTheme(mq.matches ? "dark" : "light")
+    } else {
+      setIsSystem(false)
+    }
+
+    const handler = (e: MediaQueryListEvent) => {
+      if (theme === "system") {
+        setTheme(e.matches ? "dark" : "light")
+      }
+    }
+
     mq.addEventListener("change", handler)
     return () => mq.removeEventListener("change", handler)
   }, [theme])
