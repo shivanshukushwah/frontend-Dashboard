@@ -10,6 +10,8 @@ import { Badge } from "@/components/ui/badge"
 import { useThemeContext } from "@/contexts/theme-context"
 import { Monitor, Moon, Sun, Palette, Eye, Zap, Settings } from 'lucide-react'
 
+type Theme = "light" | "dark" | "system" | "blue-dark" | "purple-dark" | "high-contrast";
+
 const themePresets = [
   {
     id: "light",
@@ -121,7 +123,8 @@ export function ThemeSettings() {
                     className={`cursor-pointer transition-all hover:shadow-md ${
                       isActive ? "ring-2 ring-primary" : ""
                     }`}
-                    onClick={() => setTheme(preset.id)}
+                    onClick={() => setTheme(preset.id as Theme)}
+
                   >
                     <CardContent className="p-4">
                       <div className="flex items-center space-x-3">
